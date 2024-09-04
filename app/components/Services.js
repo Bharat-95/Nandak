@@ -10,7 +10,7 @@ const Services = () => {
       </div>
 
       <div className="lg:grid lg:grid-cols-3 md:grid md:grid-cols-3 gap-4 ">
-        <div className="p-10 space-y-4 shadow-lg hover:bg-gradient-to-tr from-orange-400 to-orange-200 rounded-md my-10 cursor-pointer border-[1px] border-black hover:transform hover:-translate-y-4 duration-150">
+        <div className="p-10 space-y-4 shadow-lg hover:bg-gradient-to-tr from-teal-900 to-teal-100 rounded-md my-10 cursor-pointer border-[1px] border-black hover:transform hover:-translate-y-4 duration-150">
           <div className="text-lg font-bold flex justify-center">
             Web Development
           </div>
@@ -21,7 +21,7 @@ const Services = () => {
             front-end design to back-end integration.
           </div>
         </div>
-        <div className="p-10 space-y-4 shadow-lg hover:bg-gradient-to-tr from-orange-400 to-orange-200 rounded-md my-10 cursor-pointer border-[1px] border-black  hover:transform hover:-translate-y-4 duration-150">
+        <div className="p-10 space-y-4 shadow-lg hover:bg-gradient-to-tr from-teal-900 to-teal-100 rounded-md my-10 cursor-pointer border-[1px] border-black  hover:transform hover:-translate-y-4 duration-150">
           <div className="text-lg font-bold flex justify-center">
             UI/UX Design
           </div>
@@ -32,7 +32,7 @@ const Services = () => {
             your website or app is seamless and satisfying.
           </div>
         </div>
-        <div className="p-10 space-y-4 shadow-lg hover:bg-gradient-to-tr from-orange-400 to-orange-200 rounded-md my-10 cursor-pointer border-[1px] border-black  hover:transform hover:-translate-y-4 duration-150">
+        <div className="p-10 space-y-4 shadow-lg hover:bg-gradient-to-tr from-teal-900 to-teal-100 rounded-md my-10 cursor-pointer border-[1px] border-black  hover:transform hover:-translate-y-4 duration-150">
           <div className="text-lg font-bold flex justify-center">
             App Development
           </div>

@@ -45,7 +45,7 @@ const Contact = () => {
             <input type='text' placeholder='Your Email' name='Email' className='w-[100%] h-12 rounded-lg  p-4' required />
             <textarea type='text' placeholder='Your Message' name='Message' className='w-[100%] h-40 rounded-lg p-4' required />
  
-                <button className='bg-orange-500 text-white w-40 h-14 rounded-lg' type='submit'>Submit</button>
+                <button className='bg-teal-900 text-white w-40 h-14 rounded-lg' type='submit'>Submit</button>
             </form>
             
         </div>
