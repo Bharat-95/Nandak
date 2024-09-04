@@ -21,23 +21,23 @@ const Projects = () => {
                 <div className='space-y-4'>
                 <Image src={Scoolify} alt='No Image Found' className='h-[200px] rounded-lg shadow-lg' />
                 <div className=''>Consultancy website</div>
-                <div className='text-xl font-extrabold'>The website is about Consultance Services</div>
+                <div className='text-xl font-extrabold'>This website is about Consultance Services</div>
                 </div>
                 </Link>
-                <div  className='space-y-4  p-4  rounded-lg lg:border-[1px] md:border-[1px] border-black hover:-translate-y-2 hover:-translate-x-2 duration-200'>
+                <Link href='/'  className='space-y-4  p-4  rounded-lg lg:border-[1px] md:border-[1px] border-black hover:-translate-y-2 hover:-translate-x-2 duration-200'>
                 <div className='space-y-4'>
                 <Image src={G7carsApp} alt='No Image Found' className='h-[200px] rounded-lg shadow-lg' />
                 <div className=''>Car Rental App</div>
                 <div className='text-xl font-extrabold'>Android and IOS application where users will be able to rent cars.</div>
                 </div>
-                </div>
-                <div  className='space-y-4  p-4  rounded-lg lg:border-[1px] md:border-[1px] border-black hover:-translate-y-2 hover:-translate-x-2 duration-200'>
+                </Link>
+                <Link href='/'  className='space-y-4  p-4  rounded-lg lg:border-[1px] md:border-[1px] border-black hover:-translate-y-2 hover:-translate-x-2 duration-200'>
                 <div className='space-y-4'>
                 <Image src={Hostel} alt='No Image Found' className='h-[200px] rounded-lg shadow-lg' />
                 <div className=''>Hostel Rent App</div>
                 <div className='text-xl font-extrabold'>Android and IOS application where hostel owner will be able to track fee payments and data of students.</div>
                 </div>
-                </div>
+                </Link>
         </div>
     </div>
   )
