@@ -2,6 +2,7 @@
 import React from 'react'
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
+import Whatsapp from '../components/Whatsapp';
 
 
 
@@ -47,8 +48,10 @@ const Contact = () => {
  
                 <button className='bg-teal-900 text-white w-40 h-14 rounded-lg' type='submit'>Submit</button>
             </form>
+            <Whatsapp />
             
         </div>
+      
     </div>
   )
 }

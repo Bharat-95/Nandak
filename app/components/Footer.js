@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <div className='lg:text-md md:text-[14px] text-[8px]'>&copy; Nandak innovation Private Limited
         <ul className='mt-4 space-y-2 '>
-          <li><Link href='/' className='hover:text-teal-900'>Terms and conditions</Link></li>
+          <li><Link href='/terms' className='hover:text-teal-900'>Terms and conditions</Link></li>
           <li><Link href='/contact' className='hover:text-teal-900'>Help and Support</Link></li>
         </ul>
       </div>

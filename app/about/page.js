@@ -16,7 +16,7 @@ const AboutUsPage = () => {
           At <Link href='/' className="font-semibold text-teal-900">Nandak Innovations</Link>, your success is our success. We take pride in delivering projects on time and within budget, ensuring that every detail is perfect. Let’s work together to create something extraordinary.
         </p>
       </div>
-      <Link href='/contact' className='bg-teal-900 text-white lg:p-3 md:p-3 p-1 rounded-lg flex items-center justify-center lg:gap-3 md:gap-3 gap-1  lg:w-52 md:w-52 w-44 my-10'>CONNECT WITH US </Link>
+      <Link href='/contact' className='bg-teal-900 text-white lg:p-3 md:p-3 p-1 rounded-lg flex items-center justify-center lg:gap-3 md:gap-3 gap-1  lg:w-52 md:w-52 w-44 my-10'>GET QUOTE </Link>
     </div>
   );
 };

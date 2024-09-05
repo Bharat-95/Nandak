@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import Work from './components/Work'
 import Projects from './components/Projects'
+import Whatsapp from './components/Whatsapp'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <Services />
       <Work />
       <Projects />
+      <Whatsapp />
     </div>
   )
 }

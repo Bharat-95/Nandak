@@ -10,6 +10,7 @@ const Header = () => {
      <div>
       <Image 
       src={Logo}
+      alt='No Logo Found'
       className='lg:h-20 lg:w-44 md:h-20 md:w-44 h-8 w-20'/>
 
      </div>

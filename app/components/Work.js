@@ -58,7 +58,7 @@ const Work = () => {
         </div>
       </div>
       <div className='flex justify-center'>
-        <Link href='/contact' className='bg-teal-900 text-white p-2 rounded-lg flex items-center justify-center gap-3 w-52'>CONNECT WITH US <FaLocationArrow size={14} /></Link>
+        <Link href='/contact' className='bg-teal-900 text-white p-2 rounded-lg flex items-center justify-center gap-3 w-52'>GET QUOTE <FaLocationArrow size={14} /></Link>
       </div>
     </div>
   );

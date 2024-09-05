@@ -19,7 +19,7 @@ const page = () => {
         </div>
       </div>
       <div className='flex justify-center mb-10'>
-      <Link href='/contact' className='bg-teal-900 text-white lg:p-3 md:p-3 p-1 rounded-lg flex items-center justify-center lg:gap-3 md:gap-3 gap-1  lg:w-52 md:w-52 w-44'>CONNECT WITH US </Link>
+      <Link href='/contact' className='bg-teal-900 text-white lg:p-3 md:p-3 p-1 rounded-lg flex items-center justify-center lg:gap-3 md:gap-3 gap-1  lg:w-52 md:w-52 w-44'>GET QUOTE </Link>
       </div>
      
     </div>

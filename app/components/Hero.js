@@ -13,7 +13,7 @@ const Hero = () => {
       We create custom web and mobile applications adapted to your unique growth path. Let's unlock the power of innovations for your business.</div></div>
       
       <div className=''>
-        <Link href='/contact' className='bg-teal-900 text-white lg:p-2 md:p-2 p-1 rounded-lg flex items-center justify-center lg:gap-3 md:gap-3 gap-1  lg:w-52 md:w-52 w-44'>CONNECT WITH US <FaLocationArrow size={14} /></Link>
+        <Link href='/contact' className='bg-teal-900 text-white lg:p-2 md:p-2 p-1 rounded-lg flex items-center justify-center lg:gap-3 md:gap-3 gap-1  lg:w-52 md:w-52 w-44'>GET QUOTE <FaLocationArrow size={14} /></Link>
       </div>
       </div>
       <div className='lg:w-[50%] md:w-[50%] w-0 h-[400px] m-10 rounded-lg  '>
