@@ -8,6 +8,15 @@ const Whatsapp = () => {
         <Link href='https://wa.me/+918331091122' target="_blank" className='absolute right-0  rounded-xl'>
        <FaWhatsappSquare color='green' height={0} width={0} className='h-12 w-12' />
     </Link>
+    <Link href='https://wa.me/+918331091122' target="_blank" className='absolute right-0  rounded-xl'>
+       <FaWhatsappSquare color='green' height={0} width={0} className='h-12 w-12' />
+    </Link>
+    <Link href='https://wa.me/+918331091122' target="_blank" className='absolute right-0  rounded-xl'>
+       <FaWhatsappSquare color='green' height={0} width={0} className='h-12 w-12' />
+    </Link> <Link href='https://wa.me/+918331091122' target="_blank" className='absolute right-0  rounded-xl'>
+       <FaWhatsappSquare color='green' height={0} width={0} className='h-12 w-12' />
+    </Link>
+    
     </div>
   )
 }
