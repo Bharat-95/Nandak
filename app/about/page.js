@@ -37,7 +37,7 @@ const page = () => {
           Meet our Team
         </div>
         <div className="lg:px-[160px] lg:py-[50px]">
-          <div className="lg:flex md:grid md:grid-cols-2 lg:justify-evenly lg:space-y-0 md:space-y-10 space-y-10">
+          <div className="lg:flex md:grid md:grid-cols-2 lg:justify-evenly lg:space-y-0 md:space-y-0  md:gap-y-10 space-y-10">
             <div className="flex flex-col items-center space-y-1">
               <div className="w-[200px] h-[200px] overflow-hidden">
                 <Image src={Bharat} width={200} height={200} alt="No Image Found" />
