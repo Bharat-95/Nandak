@@ -11,7 +11,7 @@ const Work = () => {
       <div className="text-[#1C923F] flex justify-center text-[30px] font-semibold">
         Our Process
       </div>
-      <div className="lg:flex lg:space-y-0 md:space-y-10 space-y-10  justify-center px-[100px] pt-[64px] gap-[31px]">
+      <div className="lg:flex md:grid md:grid-cols-2 lg:space-y-0 md:space-y-10 space-y-10  justify-center px-[100px] pt-[64px] gap-[31px]">
       <div className="flex flex-col items-center">
         <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image1} /></div>
         <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#F8C802] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Plan & Customize</div>
