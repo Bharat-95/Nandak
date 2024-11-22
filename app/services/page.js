@@ -27,7 +27,7 @@ const page = () => {
 
       <div className="bg-white  lg:px-[80px] lg:py-[64px] md:py-[64px] py-[30px] space-y-[64px] ">
         <div className="lg:flex lg:gap-[32px]">
-          <div className=" shadow-md lg:mx-0 md:mx-0 mx-2">
+          <div className=" shadow-md lg:mx-0 md:mx-4 mx-2">
             <Image alt="No Image Found" src={Image1} width={560} height={400} />
           </div>
           <div className="lg:w-[50%] lg:px-0 md:px-0 px-2  space-y-6">
@@ -55,7 +55,7 @@ const page = () => {
         </div>
 
         <div className="lg:flex lg:flex-row-reverse lg:gap-[32px]">
-          <div className=" shadow-md lg:mx-0 md:mx-0 mx-2">
+          <div className=" shadow-md lg:mx-0 md:mx-4 mx-2">
             <Image alt="No Image Found" src={Image2} width={560} height={400} />
           </div>
           <div className="lg:w-[50%] lg:px-0 md:px-0 px-2  space-y-6">
@@ -82,7 +82,7 @@ const page = () => {
         </div>
 
         <div className="lg:flex lg:gap-[32px]">
-          <div className=" shadow-md lg:mx-0 md:mx-0 mx-2">
+          <div className=" shadow-md lg:mx-0 md:mx-4 mx-2">
             <Image alt="No Image Found" src={Image3} width={560} height={400} />
           </div>
           <div className="lg:w-[50%] lg:px-0 md:px-0 px-2 space-y-6">
@@ -109,7 +109,7 @@ const page = () => {
         </div>
 
         <div className="lg:flex lg:flex-row-reverse lg:gap-[32px]">
-          <div className=" shadow-md lg:mx-0 md:mx-0 mx-2">
+          <div className=" shadow-md lg:mx-0 md:mx-4 mx-2">
             <Image alt="No Image Found" src={Image4} width={560} height={400} />
           </div>
           <div className="lg:w-[50%] lg:px-0 md:px-0 px-2  space-y-6">
