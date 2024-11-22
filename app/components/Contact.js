@@ -94,7 +94,7 @@ const Contact = () => {
           type="text"
           name='Message'
           placeholder="Write your message"
-          className="bg-[#1C923F] text-white h-[174px] lg:w-[706px] md:w-[706px] w-[300px] border-[1px] border-white rounded-[10px] p-2"
+          className="bg-[#1C923F] text-white h-[174px] lg:w-[706px] md:w-[330px] border-[1px] border-white rounded-[10px] p-2"
         />
       </div>
       <div className="flex justify-center mt-[32px]">
