@@ -1,64 +1,56 @@
 import React from "react";
-import { FaLocationArrow } from "react-icons/fa";
-import Link from "next/link";
+import Image from "next/image";
+import Image1 from "../../public/Group 1.png";
+import Image2 from "../../public/Group 2.png";
+import Image3 from "../../public/Group 3.png";
+import Image4 from "../../public/Group 4.png"
 
 const Work = () => {
   return (
-    <div className="py-10 space-y-10">
-      <div className="text-4xl font-extrabold underline">Work Process</div>
-      <div className="lg:grid lg:grid-cols-2  md:grid md:grid-cols-2 gap-10 lg:space-y-0 md:space-y-0 space-y-2 ">
-        <div className="border-[1px] border-black p-4 space-y-2 rounded-md shadow-md hover:translate-x-2 hover:-translate-y-2 duration-150 cursor-pointer">
-          <div className="text-teal-900 font-semibold">Step 1</div>
-          <div className="text-2xl font-bold ">Consultation</div>
-          <div className="font-extralight">
-            At this stage, we get acquainted with your needs, outline the goals
-            and desired results.
-          </div>
-        </div>
-        <div className="border-[1px] border-black p-4 space-y-2 rounded-md shadow-md hover:translate-x-2 hover:-translate-y-2 duration-150 cursor-pointer">
-          <div className="text-teal-900 font-semibold">Step 2</div>
-          <div className="text-2xl font-bold">
-            Estimation & Budget & Contract signing
-          </div>
-          <div className="font-extralight">
-            We talk about the contract and will complete the formalities
-          </div>
-        </div>
-        <div className="border-[1px] border-black p-4 space-y-2 rounded-md shadow-md hover:translate-x-2 hover:-translate-y-2 duration-150 cursor-pointer">
-          <div className="text-teal-900 font-semibold">Step 3</div>
-          <div className="text-2xl font-bold">UI/UX Design + Features</div>
-          <div className="font-extralight">
-            You receive a smart design and a detailed description of the
-            functions of your product.
-          </div>
-        </div>
-        <div className="border-[1px] border-black p-4 space-y-2 rounded-md shadow-md hover:translate-x-2 hover:-translate-y-2 duration-150 cursor-pointer">
-          <div className="text-teal-900 font-semibold">Step 4</div>
-          <div className="text-2xl font-bold">Development</div>
-          <div className="font-extralight">
-            Here our developers handle the implementation, coding, and
-            optimization of your application.
-          </div>
-        </div>
-        <div className="border-[1px] border-black p-4 space-y-2 rounded-md shadow-md hover:translate-x-2 hover:-translate-y-2 duration-150 cursor-pointer">
-          <div className="text-teal-900 font-semibold">Step 5</div>
-          <div className="text-2xl font-bold">Testing</div>
-          <div className="font-extralight">
-            Our testers will check your product deeply to make sure that it has
-            no bugs or errors.
-          </div>
-        </div>
-        <div className="border-[1px] border-black p-4 space-y-2 rounded-md shadow-md hover:translate-x-2 hover:-translate-y-2 duration-150 cursor-pointer">
-          <div className="text-teal-900 font-semibold">Step 6</div>
-          <div className="text-2xl font-bold">Delivery</div>
-          <div className="font-extralight">
-            The final stage of our cooperation. Here we will provide you with
-            the ready project and all related materials.
-          </div>
-        </div>
+    <div className="">
+      <div className="text-[#1C923F] flex justify-center text-[30px] font-semibold">
+        Our Process
       </div>
-      <div className='flex justify-center'>
-        <Link href='/contact' className='bg-teal-900 text-white p-2 rounded-lg flex items-center justify-center gap-3 w-52'>GET QUOTE <FaLocationArrow size={14} /></Link>
+      <div className="lg:flex lg:space-y-0 md:space-y-0 space-y-10  justify-center px-[100px] pt-[64px] gap-[31px]">
+      <div className="flex flex-col items-center">
+        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image1} /></div>
+        <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#F8C802] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Plan & Customize</div>
+        <div className="text-[12px] flex text-center text-[#1D3816]">
+          We collaborate with you to understand your goals and customize a plan
+          tailored to your unique needs, including features, design, and
+          functionality.
+        </div>
+        </div>
+
+
+        <div className="flex flex-col items-center">
+        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image2} /></div>
+        <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#DE4B30] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Design & Develop</div>
+        <div className="text-[12px] flex text-center text-[#1D3816]">
+        Our experts craft user-friendly designs and bring them to life with seamless development for web and mobile platforms.
+        </div>
+        </div>
+
+
+        <div className="flex flex-col items-center">
+        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image3} /></div>
+        <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#4DC1EF] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Test & refine</div>
+        <div className="text-[12px] flex text-center text-[#1D3816]">
+          We collaborate with you to understand your goals and customize a plan
+          tailored to your unique needs, including features, design, and
+          functionality.
+        </div>
+        </div>
+
+        <div className="flex flex-col items-center">
+        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image4} /></div>
+        <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#1C923F] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Plan & Customize</div>
+        <div className="text-[12px] flex text-center text-[#1D3816]">
+          We collaborate with you to understand your goals and customize a plan
+          tailored to your unique needs, including features, design, and
+          functionality.
+        </div>
+        </div>
       </div>
     </div>
   );

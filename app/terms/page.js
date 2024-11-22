@@ -8,7 +8,7 @@ const TermsAndConditions = () => {
           Terms and Conditions
         </div>
       </div>
-      <div className="space-y-8  border-[1px] border-black p-10 rounded-lg bg-gray-300">
+      <div className="space-y-8 p-10 rounded-lg">
         <div>
           <div className="text-xl font-semibold sm:text-lg lg:text-xl">
             1. Introduction

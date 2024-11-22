@@ -41,10 +41,10 @@ const Contact = () => {
         <div className='mb-10'>
         <div className='flex justify-center my-20 font-bold text-2xl'> Contact Us</div>
             <form className='space-y-10 lg:mx-32 ' ref={form} onSubmit={sendEmail}>
-            <input type='text' placeholder='Your Name' name='Name' className='w-[100%] h-12 rounded-lg  p-4' required />
-            <input type='text' placeholder='Your Phone Number' name='PhoneNumber' className='w-[100%] h-12 rounded-lg  p-4' required />
-            <input type='text' placeholder='Your Email' name='Email' className='w-[100%] h-12 rounded-lg  p-4' required />
-            <textarea type='text' placeholder='Your Message' name='Message' className='w-[100%] h-40 rounded-lg p-4' required />
+            <input type='text' placeholder='Your Name' name='Name' className='w-[100%] h-12 rounded-lg border-[1px]  p-4' required />
+            <input type='text' placeholder='Your Phone Number' name='PhoneNumber' className='w-[100%] h-12 rounded-lg  border-[1px]   p-4' required />
+            <input type='text' placeholder='Your Email' name='Email' className='w-[100%] h-12 rounded-lg  border-[1px]   p-4' required />
+            <textarea type='text' placeholder='Your Message' name='Message' className='w-[100%] h-40 rounded-lg   border-[1px] p-4' required />
  
                 <button className='bg-teal-900 text-white w-40 h-14 rounded-lg' type='submit'>Submit</button>
             </form>

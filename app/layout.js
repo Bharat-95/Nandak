@@ -1,10 +1,10 @@
-// Import necessary modules
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Head from "next/head";
-import Script from "next/script"; // Import next/script
+import Script from "next/script"; 
+import { Poppins } from 'next/font/google';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,14 +13,19 @@ export const metadata = {
   description: "",
 };
 
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+});
+
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-[#DDE3FE] text-black lg:px-16 md:px-16 px-4 py-6">
+    <html lang="en" className=" ">
       <Head>
         <title>Nandak Innovations</title>
       </Head>
-      
-      {/* Add Google Tag Manager script with next/script */}
+    
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=AW-16754470845"
         strategy="afterInteractive"
@@ -38,7 +43,7 @@ export default function RootLayout({ children }) {
         }}
       />
 
-      <body className={inter.className}>
+      <body className={poppins.className}>
         <Header />
         {children}
         <Footer />

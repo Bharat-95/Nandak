@@ -1,15 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
 import { FaWhatsappSquare } from "react-icons/fa";
-import { ImLinkedin } from "react-icons/im";
+import { ImLinkedin } from "react-icons/im"; 
 import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='flex justify-between lg:p-6 md:p-10 p-2 border-[1px] border-black rounded-md'>
+    <div className='flex justify-between lg:px-20 md:px-20 px-4 py-10 bg-black text-white rounded-b-md'>
       <div>
-        <div className='lg:text-md md:text-[14px] text-[8px]'>Reach Us On :
+        <div className='lg:text-md md:text-[14px] text-[6px]'>Reach Us On :
           <ul className='space-y-2 mt-4'>
             <li className='hover:text-teal-900 cursor-pointer'>bharat.nanavattula@nandak.co</li>
             <li className='hover:text-teal-900 cursor-pointer'>sairam.akula@nandak.co</li>
@@ -22,14 +22,14 @@ const Footer = () => {
         </div>
         
       </div>
-      <div className='lg:text-md md:text-[14px] text-[8px]'>&copy; Nandak innovation Private Limited
+      <div className='lg:text-md md:text-[14px] text-[6px]'>&copy; Nandak innovation Private Limited
         <ul className='mt-4 space-y-2 '>
           <li><Link href='/terms' className='hover:text-teal-900'>Terms and conditions</Link></li>
           <li><Link href='/contact' className='hover:text-teal-900'>Help and Support</Link></li>
         </ul>
       </div>
 
-      <ul className='lg:space-y-4 md:space-y-4 space-y-2 lg:text-md md:text-[14px] text-[8px]'>
+      <ul className='lg:space-y-4 md:space-y-4 space-y-2 lg:text-md md:text-[14px] text-[6px]'>
         <li className='font-bold '>Services</li>
         <li className='hover:text-teal-900'><Link href='/'>Web Development</Link></li>
         <li className='hover:text-teal-900'><Link href='/'>UI/UX Design</Link></li>
