@@ -11,7 +11,7 @@ const Services = () => {
       <div className="text-[#1C923F] flex justify-center text-[30px] font-semibold">
         Our Services
       </div>
-      <div className="lg:px-[64px] md:px-[20] px-20 pt-[64px] flex flex-wrap gap-[24px] justify-center">
+      <div className="lg:px-[64px] md:px-[20] px-20 md:py-10 pt-[64px] flex flex-wrap gap-[24px] justify-center">
         <div className="border-[1px] border-[#1D3816] p-[24px] rounded-[30px] flex flex-col items-center w-[300px] hover:transform hover:translate-x-2 hover:-translate-y-2 cursor-pointer">
           <div className="h-[200px] w-[280px] overflow-hidden">
             <Image
