@@ -33,7 +33,7 @@ const page = () => {
       </div>
 
       <div>
-        <div className="lg:flex md:grid md:grid-cols-2 justify-center text-[#1C923F] font-bold lg:text-[28px]">
+        <div className="lg:flex md:grid md:grid-cols-2 flex justify-center text-[#1C923F] font-bold lg:text-[28px]">
           Meet our Team
         </div>
         <div className="lg:px-[160px] lg:py-[50px]">
