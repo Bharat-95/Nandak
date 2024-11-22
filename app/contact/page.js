@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='flex mx-[10%] lg:space-y-0 space-y-20  gap-6 justify-center'>
+    <div className='flex mx-[10%] lg:space-y-0 space-y-20 min-h-screen  gap-6 justify-center'>
 
         <div className='mb-10'>
         <div className='flex justify-center my-20 font-bold text-2xl'> Contact Us</div>
