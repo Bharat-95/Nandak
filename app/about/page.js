@@ -9,7 +9,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <div className="lg:space-y-[50px] md:space-y-[30px] space-y-4">
-      <div className="lg:py-[50px] lg:px-[160px] lg:text-[40px] md:py-[108px] md:px-[160px] md:text-[10px] py-4 text-[20px] flex justify-center gap-2  ">
+      <div className="lg:py-[50px] lg:px-[160px] lg:text-[40px] md:py-[108px] md:px-[160px] md:text-[20px] py-4 text-[20px] flex justify-center gap-2  ">
         At
         <a className="text-[#1C923F] font-bold italic"> Nandak Innovations</a>
       </div>
