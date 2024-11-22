@@ -3,7 +3,7 @@ import Image from "next/image";
 import Bharat from "../../public/Bharat.jpeg";
 import Sai from "../../public/sai.jpeg";
 import Sanskruthi from "../../public/Sanskruthi.jpg";
-import Vijay from '../../public/Vijay.jpg'
+import Vijay from '../../public/vijay.jpg'
 import Link from "next/link";
 
 const page = () => {
