@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Head from "next/head";
 import Script from "next/script"; 
 import { Poppins } from 'next/font/google';
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
