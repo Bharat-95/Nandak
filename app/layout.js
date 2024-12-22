@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
           `,
         }}
       />
-
+{/* added the tag */}
 <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2372535200291972"
      crossorigin="anonymous"/>
 
