@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       </Head>
     
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-16754470845"
+        src="https://www.googletagmanager.com/gtag/js?id=G-HP4GDZTEQN"
         strategy="afterInteractive"
       />
       <Script
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-16754470845');
+            gtag('config', 'G-HP4GDZTEQN');
           `,
         }}
       />
@@ -47,11 +47,11 @@ export default function RootLayout({ children }) {
 <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2372535200291972"
      crossorigin="anonymous"/>
 
+
       <body className={poppins.className}>
         <Header />
         {children}
         <Footer />
-        <Analytics />
       </body>
     </html>
   );
