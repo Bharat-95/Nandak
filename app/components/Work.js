@@ -13,7 +13,7 @@ const Work = () => {
       </div>
       <div className="lg:flex md:grid md:grid-cols-2 lg:space-y-0 md:space-y-0 space-y-10  justify-center px-[100px] pt-[64px] gap-[31px]">
       <div className="flex flex-col items-center">
-        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image1} /></div>
+        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image1} unoptimized={true} /></div>
         <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#F8C802] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Plan & Customize</div>
         <div className="text-[12px] flex text-center text-[#1D3816] ">
           We collaborate with you to understand your goals and customize a plan
@@ -24,7 +24,7 @@ const Work = () => {
 
 
         <div className="flex flex-col items-center">
-        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image2} /></div>
+        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image2} unoptimized={true} /></div>
         <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#DE4B30] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Design & Develop</div>
         <div className="text-[12px] flex text-center text-[#1D3816] ">
         Our experts craft user-friendly designs and bring them to life with seamless development for web and mobile platforms.
@@ -33,7 +33,7 @@ const Work = () => {
 
 
         <div className="flex flex-col items-center">
-        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image3} /></div>
+        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image3} unoptimized={true} /></div>
         <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#4DC1EF] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Test & refine</div>
         <div className="text-[12px] flex text-center text-[#1D3816]">
           We collaborate with you to understand your goals and customize a plan
@@ -43,7 +43,7 @@ const Work = () => {
         </div>
 
         <div className="flex flex-col items-center">
-        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image4} /></div>
+        <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image4}  unoptimized={true}/></div>
         <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#1C923F] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Plan & Customize</div>
         <div className="text-[12px] flex text-center text-[#1D3816] ">
           We collaborate with you to understand your goals and customize a plan

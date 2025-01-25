@@ -14,22 +14,26 @@ const Technologies = () => {
             <div className='h-[60px] w-[60px] overflow-hidden'>
             <Image
             alt="no Image Found"
-            src={Next} />
+            src={Next}
+            unoptimized={true} />
             </div>
             <div className='h-[60px] w-[60px] overflow-hidden'>
             <Image
             alt="no Image Found"
-            src={Apple} />
+            src={Apple} 
+            unoptimized={true}/>
             </div>
             <div className='h-[60px] w-[60px] overflow-hidden'>
             <Image
             alt="no Image Found"
-            src={Android} />
+            src={Android} 
+            unoptimized={true}/>
             </div>
             <div className='h-[60px] w-[60px] overflow-hidden'>
             <Image
             alt="no Image Found"
-            src={Apiary} />
+            src={Apiary} 
+            unoptimized={true}/>
             </div>
          </div>
     </div>

@@ -36,7 +36,9 @@ const Hero = () => {
         <Image
         alt="No Image Found"
         src={Screen} 
-        className="py-[35px]"/>
+        className="py-[35px]"
+        unoptimized={true}/>
+        
       </div>
     </div>
   );

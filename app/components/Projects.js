@@ -20,21 +20,24 @@ const Projects = () => {
             <Image
             src={G7Admin}
             alt='No Image Found'
-            className='shadow-md  rounded-lg' />
+            className='shadow-md  rounded-lg' 
+            unoptimized={true}/>
           </div>
 
           <div className='w-[225px] h-[285px] overflow-hidden'>
             <Image
             src={G7carsApp}
             alt='No Image Found'
-            className='shadow-md  rounded-lg' />
+            className='shadow-md  rounded-lg'
+            unoptimized={true} />
           </div>
 
           <div className='w-[225px] h-[285px] overflow-hidden'>
             <Image
             src={Hostel}
             alt='No Image Found'
-            className='shadow-md  rounded-lg' />
+            className='shadow-md  rounded-lg' 
+            unoptimized={true}/>
           </div>
         </div>
 
@@ -43,14 +46,16 @@ const Projects = () => {
             <Image
             src={Asquare}
             alt='No Image Found'
-            className='shadow-md  rounded-lg' />
+            className='shadow-md  rounded-lg' 
+            unoptimized={true}/>
           </div>
 
           <div className='w-[395px] h-[285px] overflow-hidden'>
             <Image
             src={Scoolify}
             alt='No Image Found'
-            className='shadow-md  rounded-lg ' />
+            className='shadow-md  rounded-lg '
+            unoptimized={true} />
           </div>
 
 
@@ -58,7 +63,8 @@ const Projects = () => {
             <Image
             src={G7cars}
             alt='No Image Found'
-            className='shadow-md  rounded-lg ' />
+            className='shadow-md  rounded-lg '
+            unoptimized={true} />
           </div>
 
         </div>

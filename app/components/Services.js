@@ -20,6 +20,7 @@ const Services = () => {
               height={200}
               alt="No Image Found"
               className="object-cover w-full h-full"
+              unoptimized={true}
             />
           </div>
           <div className="py-[12px] text-[#1D3816] text-[16px]">
@@ -42,6 +43,7 @@ const Services = () => {
               height={200}
               alt="No Image Found"
               className="object-cover w-full h-full"
+              unoptimized={true}
             />
           </div>
           <div className="py-[12px] text-[#1D3816] text-[16px]">
@@ -63,6 +65,7 @@ const Services = () => {
               height={200}
               alt="No Image Found"
               className="object-cover w-full h-full"
+              unoptimized={true}
             />
           </div>
           <div className="py-[12px] text-[#1D3816] text-[16px]">UI/UX Design</div>
@@ -82,6 +85,7 @@ const Services = () => {
               height={200}
               alt="No Image Found"
               className="object-cover w-full h-full"
+              unoptimized={true}
             />
           </div>
           <div className="py-[12px] text-[#1D3816] text-[16px]">

@@ -40,7 +40,7 @@ const page = () => {
           <div className="lg:flex md:grid md:grid-cols-2 lg:justify-evenly lg:space-y-0 md:space-y-0  md:gap-y-10 space-y-10">
             <div className="flex flex-col items-center space-y-1">
               <div className="w-[200px] h-[200px] overflow-hidden">
-                <Image src={Bharat} width={200} height={200} alt="No Image Found" />
+                <Image src={Bharat} width={200} height={200} alt="No Image Found"  unoptimized={true}/>
               </div>
               <div className="font-bold lg:text-[15px] md:text-[15px] text-[14px]">Bharat Kumar Nanavattula</div>
               <div className="lg:text-[12px] md:text-[12px] text-[10px]">Founder & Lead Developer</div>
@@ -48,7 +48,7 @@ const page = () => {
 
             <div className="flex flex-col items-center space-y-1">
               <div className="w-[200px] h-[200px] overflow-hidden">
-                <Image src={Sai} width={200} height={200} alt="No Image Found" />
+                <Image src={Sai} width={200} height={200} alt="No Image Found"  unoptimized={true} />
               </div>
               <div className="font-bold lg:text-[15px] md:text-[15px] text-[14px]">Sairam Akula</div>
               <div className="lg:text-[12px] md:text-[12px] text-[10px]">Lead Developer</div>
@@ -56,7 +56,7 @@ const page = () => {
 
             <div className="flex flex-col items-center space-y-1 ">
               <div className="w-[200px] h-[200px] overflow-hidden">
-                <Image src={Sanskruthi} width={200} height={200} alt="No Image Found" />
+                <Image src={Sanskruthi} width={200} height={200} alt="No Image Found"  unoptimized={true} />
               </div>
               <div className="font-bold lg:text-[15px] md:text-[15px] text-[14px]">Sanskruti Udhan</div>
               <div className="lg:text-[12px] md:text-[12px] text-[10px]">Designer</div>
@@ -64,7 +64,7 @@ const page = () => {
 
             <div className="flex flex-col items-center space-y-1 ">
               <div className="w-[200px] h-[200px] overflow-hidden">
-                <Image src={Vijay} width={200} height={200} alt="No Image Found" />
+                <Image src={Vijay} width={200} height={200} alt="No Image Found"  unoptimized={true} />
               </div>
               <div className="font-bold lg:text-[15px] md:text-[15px] text-[14px]">Vijay Bhaskar Thipparapu
               </div>
