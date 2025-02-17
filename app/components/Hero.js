@@ -25,7 +25,7 @@ const Hero = () => {
             href="/contact"
             className="bg-[#1C923F] text-white text-[15px] flex items-center justify-center px-[30px] py-[10px] font-semibold shadow-md"
           >
-            GET QUOTE
+            
           </Link>
           <Link
            href="/contact"
