@@ -44,11 +44,9 @@ const Work = () => {
 
         <div className="flex flex-col items-center">
         <div className="w-[240px] h-[240px] overflow-hidden"><Image alt="no Image Found" src={Image4}  unoptimized={true}/></div>
-        <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#1C923F] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Plan & Customize</div>
+        <div className=" lg:text-[16px] md:text-[14px] text-[12px] text-[#1C923F] font-semibold lg:py-[30px] md:py-[10px] py-[10px]">Launch & Deliver</div>
         <div className="text-[12px] flex text-center text-[#1D3816] ">
-          We collaborate with you to understand your goals and customize a plan
-          tailored to your unique needs, including features, design, and
-          functionality.
+          We deliver your project on time, providing ongoing support to ensure its success in achieving your business goals.
         </div>
         </div>
       </div>
