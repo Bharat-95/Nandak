@@ -39,7 +39,7 @@ const Projects = () => {
           </div>
           </Link>
 
-          <Link href='/https://www.obsvector.com/' target='_blank'></Link>
+          <Link href='https://www.obsvector.com/' target='_blank'></Link>
 
           <div className='w-[420px] h-[285px] overflow-hidden hover:translate-x-1 hover:-translate-y-1 duration-700'>
             <Image
