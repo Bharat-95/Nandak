@@ -16,7 +16,7 @@ const Footer = () => {
             <li className='flex gap-2'>
              <Link href='https://www.linkedin.com/in/nandak-innovations/' target='_blank'><ImLinkedin className='text-blue-500 w-6 h-6 hover:opacity-80 ' /></Link>
             <Link href='https://www.instagram.com/nandakinnovations_/' target='_blank'><RiInstagramFill className='text-pink-500 w-6 h-6 hover:opacity-80 ' /></Link>
-            <Link href='https://www.facebook.com/groups/898541177604180/user/61577696564583/' target='_blank'><FaFacebookSquare className='text-blue-600 w-6 h-6 hover:opacity-80 ' /></Link>
+            <Link href='https://www.facebook.com/profile.php?id=61577696564583' target='_blank'><FaFacebookSquare className='text-blue-600 w-6 h-6 hover:opacity-80 ' /></Link>
             </li>
           </ul>
         </div>
